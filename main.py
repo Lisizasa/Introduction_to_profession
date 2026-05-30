@@ -1,1 +1,0 @@
-print(f"Hello to 304 from Suzdaltseva Elizaveta, number 16!")
