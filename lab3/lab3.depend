@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1780155655 source:c:\users\user\desktop\всякая школьная штука\python\pythonproject\lab3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
