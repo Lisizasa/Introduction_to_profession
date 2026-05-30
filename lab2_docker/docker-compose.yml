@@ -1,0 +1,19 @@
+services:
+  web:
+    build: ./app
+    ports:
+      - "5050:5050"
+    depends_on:
+      - redis
+    volumes:
+      - ./app:/app
+    environment:
+      - FLASK_ENV=development
+  
+  redis:
+    image: redis:7
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
